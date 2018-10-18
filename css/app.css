@@ -5871,6 +5871,7 @@ button.close {
 
 .connect {
   text-align: center;
+  padding-top: 30px;
   padding-bottom: 60px;
   background: rgba(62, 70, 82, 0.966);
   color: #ffffff; }

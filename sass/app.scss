@@ -1,0 +1,11 @@
+//customizing bootstrap default variables
+@import "customVariables";
+//functions
+@import "functions";
+//main bootstrap files import
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//bootstrap compass import
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+//custom css file to be compiled
+@import "custom";
+

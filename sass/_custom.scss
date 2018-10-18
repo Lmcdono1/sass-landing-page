@@ -1,0 +1,137 @@
+//NAVBAR_______________________________________
+.navbar{
+    margin-bottom: 0;
+    color: set-text-color($main-color) !important;
+  // height: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+  }
+  
+  
+  
+  .navbar.solid {
+      background-color: rgba(62, 70, 82, 0.966);
+      transition: background-color 1s ease 0s;
+      -webkit-box-shadow: 0 8px 6px -6px #000;
+      -moz-box-shadow: 0 8px 6px -6px #000;
+      box-shadow: 0 8px 6px -6px #000;
+  }
+  
+  //LANDING WRAP____________________________________
+  .petInfo{
+      background: url(../img/img1.jpeg) no-repeat center;
+      height: 700px;
+      // padding: 30px 30px;
+      background-size: cover;
+      padding-top: 150px;
+      overflow: auto;
+  
+      h1{
+          font-size: 65px;
+          font-weight: bold;
+          color: white;
+      }
+  
+      .headline{
+          font-family: 'Rye', cursive;
+      }
+  
+      .container{
+          // padding: 30px 30px 30px 30px;
+          text-align: left;
+          // color: white;
+          color: white;  
+      }
+  
+      #header-col{
+          background: rgba(19, 19, 19, 0.6);
+          // opacity: 0.5;
+          padding-bottom: 3%;
+          padding-left: 3%;
+          // border-radius: 15px;
+      }
+  
+      .bff{
+          margin-top: 0px;
+          letter-spacing: 5px;
+          font-size: 30px;
+      }
+  
+      .main{
+          font-size: 15px;
+      }
+  }
+  
+  
+    
+  
+  //BUTTONS_____________________________________________________
+  .btn{
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  //BUTTON______________________________________________________
+  .btn-primary{
+      border: none;
+  }
+  
+  //INFO COLUMNS_____________________________________________
+  .infoSection{
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: $main-color;
+      color: set-text-color($main-color);
+      // color: #fff;
+  }
+  
+  //ACCORDION________________________________________________
+  .factsSection{
+      padding-top: 20px;
+      padding-bottom: 70px;
+      img{
+          width: 100%;
+      }
+      .ownership{
+          font-size: 40px;
+          padding-bottom: 30px;
+          text-align: center;
+      }
+      .panel-heading h4{
+          color: set-text-color($main-color);
+      }
+  }
+  
+  
+  
+  //CONTACT_________________________________________
+  .connect{
+      text-align: center;
+      padding-bottom: 60px;
+      background: $main-color;
+      color: set-text-color($main-color);
+  }
+  
+  #social{
+      height: 30px;
+      width: 30px;
+  }
+  
+  
+  //FOOTER_________________________________________
+  .footer{
+      text-align: center;
+      padding: 30px 0;
+      background: darken($main-color, 10%);
+      color: set-text-color($main-color);
+  }
+  
+  

@@ -36,9 +36,9 @@ $body-bg:               #fff !default;
 $text-color:            $gray-dark !default;
 
 //** Global textual link color.
-$link-color:            #fff !default;
+$link-color:            #333 !default;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color:      rgb(35, 196, 153) !default;
 //** Link hover decoration.
 $link-hover-decoration: none !default;
 
@@ -153,7 +153,7 @@ $table-border-color:            #ddd !default;
 
 $btn-font-weight:                normal !default;
 
-$btn-default-color:              #333 !default;
+$btn-default-color:              $button-color !default;
 $btn-default-bg:                 #fff !default;
 $btn-default-border:             #ccc !default;
 
@@ -209,7 +209,7 @@ $input-border-radius-large:      $border-radius-large !default;
 $input-border-radius-small:      $border-radius-small !default;
 
 //** Border color for inputs on focus
-$input-border-focus:             #66afe9 !default;
+$input-border-focus:             #e9a366 !default;
 
 //** Placeholder text color
 $input-color-placeholder:        #999 !default;
@@ -383,7 +383,7 @@ $navbar-default-link-hover-color:          #fff !default;
 $navbar-default-link-hover-bg:             darken($navbar-default-bg, 6.5%) !default;
 $navbar-default-link-active-color:         #fff !default;
 $navbar-default-link-active-bg:            transparent;
-$navbar-default-link-disabled-color:       #ccc !default;
+$navbar-default-link-disabled-color:       none !default;
 $navbar-default-link-disabled-bg:          transparent !default;
 
 // Navbar brand label
@@ -392,9 +392,9 @@ $navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 1
 $navbar-default-brand-hover-bg:            transparent !default;
 
 // Navbar toggle
-$navbar-default-toggle-hover-bg:           #ddd !default;
+$navbar-default-toggle-hover-bg:           none !default;
 $navbar-default-toggle-icon-bar-bg:        #888 !default;
-$navbar-default-toggle-border-color:       #ddd !default;
+$navbar-default-toggle-border-color:       none !default;
 
 
 //=== Inverted navbar
@@ -435,13 +435,13 @@ $nav-disabled-link-color:                   $gray-light !default;
 $nav-disabled-link-hover-color:             $gray-light !default;
 
 //== Tabs
-$nav-tabs-border-color:                     #ddd !default;
+$nav-tabs-border-color:                     none !default;
 
 $nav-tabs-link-hover-border-color:          $gray-lighter !default;
 
 $nav-tabs-active-link-hover-bg:             $body-bg !default;
 $nav-tabs-active-link-hover-color:          $gray !default;
-$nav-tabs-active-link-hover-border-color:   #ddd !default;
+$nav-tabs-active-link-hover-border-color:   none !default;
 
 $nav-tabs-justified-link-border-color:            #ddd !default;
 $nav-tabs-justified-active-link-border-color:     $body-bg !default;

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Animal Rescue</title>
+    <title>Furry Friend Rescue</title>
         <!-- Favicons -->
         <link href="./img/pawicon.png" rel="icon">
         <link href="./img/pawicon.png" rel="apple-touch-icon">
@@ -15,6 +15,7 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
@@ -28,13 +29,42 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#petInfo">ANIMAL RESCUE</a>
+          <a class="navbar-brand" href="./index.html">FURRY FRIEND RESCUE</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#petInfo">HOME</a></li>
-            <li><a href="#infoSection">ABOUT</a></li>
-            <li><a href="#connect">CONTACT</a></li>
+            <!--About-->
+              <li class="dropdown">
+                  <a href="./index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="./index.html">Our Story</a></li>
+                    <li><a href="./index.html">Social Media</a></li>
+                    <li><a href="./index.html">Pet Spotlight</a></li>
+                  </ul>
+                </li>
+            <!--Adopt-->
+            <li class="dropdown">
+                <a href="./index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ADOPT <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="./index.html">Dogs</a></li>
+                  <li><a href="./index.html">Cats</a></li>
+                  <li><a href="./index.html">Birds</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="./index.html">Adoption Process</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="./index.html">Application</a></li>
+                </ul>
+              </li>
+            <!--Volunteer--> 
+            <li class="dropdown">
+                <a href="./index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VOLUNTEER<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="./index.html">Events</a></li>
+                  <li><a href="./index.html">Donations</a></li>
+                  <li><a href="./index.html">Foster</a></li>
+                </ul>
+              </li>
+            <li><a href="index.html">DONATE</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -46,8 +76,8 @@
             <div class="col-md-6" id="header-col"> <!--col-md-offset-5-->
             <h1 class="headline">WANTED:</h1>
             <h1 class="bff">EXPERT BALL THROWER AND ADVENTURE SEEKER</h1>
-            <p class="main">Animal Rescue fosters dogs, cats, and birds who are in high-kill shelters, are being re-homed, or are in need of medical care. Come to one of our weekly adoption events to meet our amazing animals! </p>
-            <a href="about.html" class="btn btn-primary">AVAILABLE PETS</a>
+            <p class="main">Furry Friend Rescue fosters dogs, cats, and birds who are in high-kill shelters, are being re-homed, or are in need of medical care. Come to one of our weekly adoption events to meet our amazing animals! </p>
+            <a href="./index.html" class="btn btn-primary">ADOPT</a> &nbsp;&nbsp;&nbsp; <a href="./index.html" class="btn btn-donate">DONATE</a>
         </div> <!--col end-->
     </div> <!--row end-->
     
@@ -60,94 +90,124 @@
             <div class="row">
                 <div class="col-md-4">
                     <img src="./img/calendar-white.png">
-                    <h3>WEEKLY ADOPTION EVENTS</h3>
+                    <h3>ADOPTION EVENTS</h3>
                     <p>Come to our weekly adoption events to meet your perfect pet! We have dogs, cats, and birds all waiting to find their new homes. Check our calendar page for dates.</p>
                 </div>
 
                 <div class="col-md-4">
                         <img src="./img/check-white.png">
-                        <h3>HOME CHECKS</h3>
-                        <p>When you fall in love with one of our pets, submit an application at one of our events. We will then perform a homecheck to be sure you and the pet are a good match.</p>
+                        <h3>VOLUNTEER</h3>
+                        <p>We are always in need of volunteers to help at our adoption events, perform homechecks, and to transfer pets.We also accept donations such as food, bedding, and toys!</p>
                 </div>
 
                 <div class="col-md-4">
                         <img src="./img/heart-white.png">
                         <h3>A FOREVER HOME</h3>
-                        <p>Once the application, homecheck, and references are complete, you are ready to take home your new best friend! Be sure to send us picture updates that we will post on our website!</p>
+                        <p>Once your application, homecheck, and references are complete, you are ready to take home your new best friend! Be sure to send us picture updates that we will post on our website!</p>
                 </div>
 
             </div> <!--end row-->
         </div> <!--end container-->
     </div> <!--end section-->
 
-<!--Accordion and image-->
-<div class="factsSection">
-        <h2 class="ownership">PET OWNERSHIP: ARE YOU READY?</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    
-                    <!--Accordion-->
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                            <div class="panel panel-default">
-                              <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    OWNING A DOG
-                                  </a>
-                                </h4>
-                              </div>
-                              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                        Beagle roll over lap dog st bernard leash dog toy squeak toy heel. Chew toy stand bang sit pretty vet tail, shake german shephard dog toy heel. English mastiff paw lab chew toy dog toy puppies k9 peanut butter sit pretty. Boxer shih tzu sit lab husky tennis ball come, puppy speak catch kong down k9. Vet st bernard leave it, pug dog bone squeak toy dog bowl squirrel roll over spin squirrel. Spin poodle rottweiler chew toy down lap dog bang heel release. Beagle doberman pinscher down jump bang milk bone shake speak maltese. Beagle peanut butter bark leash bark pit bull kong. Bell shih tzu kong greyhound tail take it great dance.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="panel panel-default">
-                              <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    OWNING A CAT
-                                  </a>
-                                </h4>
-                              </div>
-                              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                        You have cat to be kitten me right meow stare at ceiling. Sit in box claw your carpet in places everyone can see - why hide my amazing artistic clawing skills? shove bum in owner's face like camera lens and cereal boxes make for five star accommodation but hopped up on catnip, and refuse to leave cardboard box kitty loves pigs. Mew hiding behind the couch until lured out by a feathery toy throwup on your pillow tuxedo cats always looking dapper meow meow, i tell my human, more napping, more napping all the napping is exhausting but i'm going to lap some water out of my master's cup meow. Meow in empty rooms. Fish i must find my red catnip fishy fish. 
-                                </div>
-                              </div>
-                            </div>
-                            <div class="panel panel-default">
-                              <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    OWNING A BIRD
-                                  </a>
-                                </h4>
-                              </div>
-                              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                        Kong catch dog bone down jump greyhound beagle bang. Fetch poodle tug paw shake dachshund doberman pinscher release squeak toy. Bring it german shephard poodle lap dog shake leash lap dog. Dog bowl pit bull dog bone shake bark down kibbles dog toy dachshund. Lab leave it poodle roll over pomeranian bring it kong leap greyhound. Squirrel rottweiler bang stay dog bowl k9 dog. Vet great dance come down kong catch greyhound. Roll over poodle boxer poodle, down peanut butter yorkshire terrier bang squirrel catch great dance bang. Pomsky leave it k9 catch, bulldog sit pretty kong dog toy take it pit bull chow chow.
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                </div> <!--end col 1-->
-                <div class="col-md-6">
-                    <img src="./img/kittywitty.jpg">   
-                </div> <!--end col 2-->
-            </div> <!--end row-->
-        </div> <!--end container-->
-    </div> <!--end section-->
+<!--Volunteer-->
+<div class="volunteer">
+  <div class="row">
+    <div class="col-md-5 col-md-offset-1" id="volunteer-section">
+      <h2>VOLUNTEER</h2>
+      <p>We are always in search of great volunteers! Every Sunday we have an adoption event that we need animal handlers to attend. You get to spend the day with an amazing animal and help get them adopted! We also need volunteers to perform home checks on our applicants, as well as volunteers willing to drive distances to pick up animals from shelters.
+      <br>
+      <br>
+      Volunteering with us is easy -- just shoot us an email and let us know that you plan to attend an adoption event. One of our more experienced volunteers will give you a quick run down when you arrive.
+      </p>
+      <a href="./index.html" class="btn btn-primary">SIGN UP</a>
+    </div><!--end col-1-->
+
+    <div class="col-md-6" id="events-section">
+      <H2>UPCOMING EVENTS</H2>
+      <div class="col-md-5">
+        <img src="img/IMG_3520.jpg" class="img-responsive" id="volunteer-img">
+      </div>
+      <div class="col-md-7">
+        <h3>Dog Adoption Event - Fairfax</h3>
+        <p>Sunday, 10/21, 12:00pm to 4:00pm</p>
+        <h4><img src="./img/icons8-marker-48.png" id="social"> PetsMart Fairfax</h4>
+        <p>9528 Main St
+          <br>
+        Fairfax, VA 22031</p>
+      </div>
+    </div>
+  </div><!--end row-->
+</div><!--end section-->
+
+<!--Pets-->
+<div class="available-pets">
+  <h2>Ready to Adopt?</h2>
+  <p>Meet some of our amazing pets available for adoption!</p>
+
+  <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="carousel slide multi-item-carousel" id="theCarousel">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-xs-4"><a href="#1"><img src="./img/doggie1.jpg" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/9c27b0/000000" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/673ab7/000000" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/4caf50/000000" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+            </div>
+            <!-- add  more items here -->
+            <!-- Example item start:  -->
+            
+            <div class="item">
+              <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+            </div>
+            
+            <!--  Example item end -->
+          </div>
+          <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+          <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+
 
 <!--Footer-->
 <div class="connect">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">
+              <div class="col-md-5" id="about-connect">
+                  <h2><img src="img/pawicon.png" id="paw-icon">&nbsp;FURRY FRIEND RESCUE</h2>
+                <p>Furry Friends Rescue is a leading animal welware organization in the Washington DC area. We have saved over 10,000 animals to date and with your support, we can continue to save thousands more. Consider donating or adopting today! </p>
+                <img src="./img/icons8-facebook-50.png" id="social"> &nbsp;
+                        <img src="./img/icons8-instagram-50.png" id="social"> &nbsp;
+                        <img src="./img/icons8-youtube-squared-50.png" id="social"> &nbsp;
+                        <img src="./img/icons8-twitter-50.png" id="social"> &nbsp;
+              </div>
+                <div class="col-md-4 col-md-offset-2" id="contact-connect">
                     <h2>STAY IN TOUCH</h2>
-                    <br>
-                    <p>Sign up for our newsletter, adoption stories, and available pet updates!</p>
+                    <p>Sign up for our newsletter to recieve adoption stories, pet ownership facts, and available pet updates!</p>
                     <hr>
                     <form>
                         <input type="text" class="form-control input-sm" placeholder="Name">
@@ -158,17 +218,24 @@
                     </form>
                     <br>
                     <br>
-                    <img src="./img/icons8-facebook-50.png" id="social"> &nbsp;
-                        <img src="./img/icons8-instagram-50.png" id="social"> &nbsp;
-                        <img src="./img/icons8-youtube-squared-50.png" id="social"> &nbsp;
-                        <img src="./img/icons8-twitter-50.png" id="social"> &nbsp;
                 </div>
             </div> <!--end row-->
         </div> <!--end container-->
     </div> <!--end section-->
 
 <div class="footer">
-    <p>Copyright &copy; 2018</p>
+  <div class="row">
+    <div class="col-lg-8" id="footer-links">
+        <a href="index.html">HOME</a>
+            <a href="index.html">ADOPT</a>
+            <a href="index.html">EVENTS</a>
+            <a href="index.html">VOLUNTEER</a>
+            <a href="index.html">DONATE</a>
+    </div>
+  <div class="col-lg-4">
+      <p>Copyright &copy; 2018</p>
+  </div>
+</div>
 </div>
 
 <!--Javascript-->

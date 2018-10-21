@@ -3,10 +3,10 @@ $bootstrap-sass-asset-helper: false !default;
 // Variables
 // --------------------------------------------------
 
-//Custom #314455;
-$main-color: rgba(62, 70, 82, 0.966);
+//Custom rgba(62, 70, 82, 0.966);
+$main-color: rgba(245, 245, 245, 0.966);
 $font-home: 'Montserrat', sans-serif;
-$button-color: rgb(105, 223, 105);
+$button-color: rgb(35, 196, 153);
 
 //== Colors
 //
@@ -36,11 +36,11 @@ $body-bg:               #fff !default;
 $text-color:            $gray-dark !default;
 
 //** Global textual link color.
-$link-color:            $brand-primary !default;
+$link-color:            #fff !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      darken($link-color, 15%) !default;
 //** Link hover decoration.
-$link-hover-decoration: underline !default;
+$link-hover-decoration: none !default;
 
 
 //== Typography

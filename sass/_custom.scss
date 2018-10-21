@@ -8,6 +8,11 @@
     color: white;
     z-index: 100;
     transition: background-color 1s ease 0s;
+    font-size: 17px;
+    .navbar-brand{
+        font-size: 20px;
+        color: rgb(35, 196, 153);
+    }
   }
   
   
@@ -69,19 +74,29 @@
     
   
   //BUTTONS_____________________________________________________
-  .btn{
+  .btn-primary{
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 10px;
       padding-bottom: 10px;
       font-size: 20px;
       font-weight: bold;
+      border: none;
   }
   
   //BUTTON______________________________________________________
-  .btn-primary{
-      border: none;
-  }
+.btn-donate{
+    background-color: transparent;
+    border: 2px solid rgb(35, 196, 153);
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    a{
+        color: rgb(218, 218, 218) !important;
+    }
+}
   
   //INFO COLUMNS_____________________________________________
   .infoSection{
@@ -118,6 +133,18 @@
       padding-bottom: 60px;
       background: $main-color;
       color: set-text-color($main-color);
+
+      #about-connect{
+          text-align: left;
+      }
+      #contact-connect{
+        text-align: left;
+      }
+  }
+
+  #paw-icon{
+      height: 7%;
+      width: 7%;
   }
   
   #social{
@@ -132,6 +159,42 @@
       padding: 30px 0;
       background: darken($main-color, 10%);
       color: set-text-color($main-color);
+      
+      #footer-links{
+        text-align: left;
+        padding-left: 40px;
+        word-spacing: 3em;
+        font-size: 16px;
+
+      }
   }
-  
-  
+
+  .volunteer{
+      padding-top: 50px;
+      padding-bottom: 50px;
+  #volunteer-section{
+    border-right: 0.5px solid darkgray;
+  }
+  img{
+      height: 100%;
+      width: 100%;
+  }
+}
+
+.available-pets{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    h2{
+        font-family: 'Just Another Hand', cursive;
+        font-size: 80px;
+    }
+
+    
+
+
+
+
+
+
+}

@@ -5918,8 +5918,8 @@ button.close {
   .volunteer #volunteer-section {
     border-right: 0.5px solid darkgray; }
   .volunteer img {
-    height: 100%;
-    width: 100%; }
+    height: 200px;
+    width: 240px; }
 
 .available-pets {
   text-align: center;
@@ -5928,5 +5928,75 @@ button.close {
   .available-pets h2 {
     font-family: 'Just Another Hand', cursive;
     font-size: 80px; }
+  .available-pets .pet-scroll img:hover {
+    opacity: 0.5; }
+  .available-pets .carousel-showmanymoveone .carousel-control {
+    width: 4%;
+    background-image: none; }
+    .available-pets .carousel-showmanymoveone .carousel-control.left {
+      margin-left: 15px; }
+    .available-pets .carousel-showmanymoveone .carousel-control.right {
+      margin-right: 15px; }
+  .available-pets .carousel-showmanymoveone .cloneditem-1,
+  .available-pets .carousel-showmanymoveone .cloneditem-2,
+  .available-pets .carousel-showmanymoveone .cloneditem-3 {
+    display: none; }
+@media all and (min-width: 768px) and (transform-3d), all and (min-width: 768px) and (-webkit-transform-3d) {
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.next {
+    transform: translate3d(50%, 0, 0);
+    left: 0; }
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.prev {
+    transform: translate3d(-50%, 0, 0);
+    left: 0; }
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.left,
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.active {
+    transform: translate3d(0, 0, 0);
+    left: 0; } }
+  @media all and (min-width: 768px) {
+    .available-pets .carousel-showmanymoveone .carousel-inner > .active.left,
+    .available-pets .carousel-showmanymoveone .carousel-inner > .prev {
+      left: -50%; }
+    .available-pets .carousel-showmanymoveone .carousel-inner > .active.right,
+    .available-pets .carousel-showmanymoveone .carousel-inner > .next {
+      left: 50%; }
+    .available-pets .carousel-showmanymoveone .carousel-inner > .left,
+    .available-pets .carousel-showmanymoveone .carousel-inner > .prev.right,
+    .available-pets .carousel-showmanymoveone .carousel-inner > .active {
+      left: 0; }
+    .available-pets .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+      display: block; } }
+@media all and (min-width: 992px) and (transform-3d), all and (min-width: 992px) and (-webkit-transform-3d) {
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.next {
+    transform: translate3d(25%, 0, 0);
+    left: 0; }
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.prev {
+    transform: translate3d(-25%, 0, 0);
+    left: 0; }
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.left,
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  .available-pets .carousel-showmanymoveone .carousel-inner > .item.active {
+    transform: translate3d(0, 0, 0);
+    left: 0; } }
+  @media all and (min-width: 992px) {
+    .available-pets .carousel-showmanymoveone .carousel-inner > .active.left,
+    .available-pets .carousel-showmanymoveone .carousel-inner > .prev {
+      left: -25%; }
+    .available-pets .carousel-showmanymoveone .carousel-inner > .active.right,
+    .available-pets .carousel-showmanymoveone .carousel-inner > .next {
+      left: 25%; }
+    .available-pets .carousel-showmanymoveone .carousel-inner > .left,
+    .available-pets .carousel-showmanymoveone .carousel-inner > .prev.right,
+    .available-pets .carousel-showmanymoveone .carousel-inner > .active {
+      left: 0; }
+    .available-pets .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+    .available-pets .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
+      display: block; } }
+  .available-pets #carousel-icon {
+    padding-top: 90px; }
 
 /*# sourceMappingURL=app.css.map */

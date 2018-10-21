@@ -176,8 +176,8 @@
     border-right: 0.5px solid darkgray;
   }
   img{
-      height: 100%;
-      width: 100%;
+      height: 200px;
+      width: 240px;
   }
 }
 
@@ -189,9 +189,150 @@
         font-family: 'Just Another Hand', cursive;
         font-size: 80px;
     }
+    .pet-scroll img:hover{
+        opacity: 0.5;
+    }
 
-    
 
+
+//CAROUSEL
+.carousel-showmanymoveone
+{
+  .carousel-control
+  { 
+    width: 4%;
+    background-image:none;
+
+    &.left 
+    {
+      margin-left:15px;
+    }
+
+    &.right 
+    {
+      margin-right:15px;
+    }
+  }
+
+  .cloneditem-1, 
+  .cloneditem-2, 
+  .cloneditem-3
+  {
+    display: none;
+  }
+
+  .carousel-inner
+  {
+    @media all and (min-width: 768px)
+    {
+      @media (transform-3d), (-webkit-transform-3d)
+      {
+        > .item.active.right,
+        > .item.next
+        { 
+          transform: translate3d(50%, 0, 0);  
+          left: 0;
+        }
+
+        > .item.active.left,
+        > .item.prev
+        { 
+          transform: translate3d(-50%, 0, 0);
+          left: 0;
+        }
+
+        > .item.left,
+        > .item.prev.right,
+        > .item.active
+        {
+          transform: translate3d(0, 0, 0);
+          left: 0;
+        }    
+      } 
+
+      > .active.left,
+      > .prev
+      {
+        left: -50%;
+      }
+
+      > .active.right,
+      > .next
+      {
+        left:  50%;
+      }
+
+      > .left,
+      > .prev.right,
+      > .active
+      {
+        left: 0;
+      }
+
+      .cloneditem-1 
+      {
+        display: block;
+      }
+    }
+
+    @media all and (min-width: 992px)
+    {    
+      @media (transform-3d), (-webkit-transform-3d)
+      {
+        > .item.active.right,
+        > .item.next
+        { 
+          transform: translate3d(25%, 0, 0);  
+          left: 0;
+        }    
+
+        > .item.active.left,
+        > .item.prev
+        { 
+          transform: translate3d(-25%, 0, 0);
+          left: 0;
+        }
+
+        > .item.left,
+        > .item.prev.right,
+        > .item.active
+        {
+          transform: translate3d(0, 0, 0);
+          left: 0;
+        }
+      }
+
+      > .active.left,
+      > .prev
+      {
+        left: -25%;
+      }
+
+      > .active.right,
+      > .next
+      {
+        left:  25%;
+      }
+
+      > .left,
+      > .prev.right,
+      > .active
+      {
+        left: 0;
+      }
+
+      .cloneditem-2, 
+      .cloneditem-3
+      {
+        display: block;
+      }
+    }    
+  }
+}
+
+#carousel-icon{
+    padding-top: 90px;
+}
 
 
 
